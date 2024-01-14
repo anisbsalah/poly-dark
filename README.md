@@ -1,4 +1,4 @@
-## Poly dark GRUB theme
+# Poly Dark GRUB theme
 
 Supported languages: Chinese (simplified), Chinese (traditional), English, French, German, Hungarian, Italian, Korean, Latvian, Norwegian, Polish, Portuguese, Russian, Rusyn, Spanish, Turkish, Ukrainian
 
@@ -8,15 +8,14 @@ Screenshot is intentionally low res to fit GitHub UI. See also: [1280×720](http
 
 ---
 
-
-### Installation / update
+## Installation / update
 
 - **Secure way:**
 
   - Download install script:
 
     ```sh
-    wget -P /tmp https://github.com/shvchk/poly-dark/raw/master/install.sh
+    wget -P /tmp https://github.com/anisbsalah/poly-dark/raw/main/install.sh
     ```
 
   - Review it at `/tmp/install.sh`
@@ -30,7 +29,7 @@ Screenshot is intentionally low res to fit GitHub UI. See also: [1280×720](http
 - **Easier, less secure way** — just download and run install script:
 
   ```sh
-  wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash
+  wget -O - https://github.com/anisbsalah/poly-dark/raw/main/install.sh | bash
   ```
 
 <br>
@@ -38,21 +37,20 @@ Screenshot is intentionally low res to fit GitHub UI. See also: [1280×720](http
 You can use `--lang` option to select language and disable interactive language selection, e.g.:
 
 ```sh
-bash /tmp/install.sh --lang German
+bash /tmp/install.sh --lang English
 ```
 
 or
 
 ```sh
-wget -O- https://github.com/shvchk/poly-dark/raw/master/install.sh | bash -s -- --lang Korean
+wget -O- https://github.com/anisbsalah/poly-dark/raw/main/install.sh | bash -s -- --lang English
 ```
 
 Full list of languages see in `INSTALLER_LANGS` variable in [install.sh](install.sh)
 
 ---
 
-
-### See also
+## See also
 
 - [Poly light GRUB theme](https://github.com/shvchk/poly-light)
 - [Fallout GRUB theme](https://github.com/shvchk/fallout-grub-theme)
